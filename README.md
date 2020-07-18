@@ -1,5 +1,5 @@
-Projekat koji implementira centralni algoritam prikazan u master tezi "Igre parnosti i njihovo rešavanje svođenjem na SAT". 
-Matematički fakultet, školska 2019/20.
+Projekat koji implementira centralni algoritam prikazan u master tezi "Igre parnosti i njihovo rešavanje svođenjem na SAT".
+Igor Rodić, 1072/2015, Matematički fakultet, školska 2019/20.
 
 Tema projekta je implementacija algoritma koji svodi problem rešavanja igara parnosti na SAT problem.
 Nakon što se generiše formula opisanim algoritmom, ona se svodi na KNF i smešta u fajl formula.cnf koji je zatim
