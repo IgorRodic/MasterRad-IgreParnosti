@@ -1,6 +1,6 @@
 PROGRAM   = parity_games_cnf
 CXX       = g++-6
-CXXFLAGS  = -g -std=c++1z -Wall
+CXXFLAGS  = -std=c++1z -Wall
 
 $(PROGRAM): graph.o jurdzinski.o formula.o parity_games_cnf.o
 	$(CXX) -o $(PROGRAM) parity_games_cnf.o graph.o jurdzinski.o formula.o
